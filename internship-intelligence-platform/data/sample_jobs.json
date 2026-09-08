@@ -1,0 +1,11 @@
+[
+  {
+    "id": "sample-001",
+    "title": "Business Intelligence Intern",
+    "company": "Example Analytics Co.",
+    "location": "New York, NY",
+    "remote": false,
+    "skills": ["sql", "python", "tableau"],
+    "source": "synthetic"
+  }
+]
