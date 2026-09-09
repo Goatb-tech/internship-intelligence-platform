@@ -6,9 +6,9 @@
 - Add synthetic sample data
 
 ## Milestone 2 — Job models
-- Add validated posting and candidate profile models
-- Normalize skills and locations
-- Add unit tests
+- Complete: validated posting and candidate profile models
+- Complete: normalize skills and locations
+- Complete: add unit tests
 
 ## Milestone 3 — Ingestion
 - Import CSV and JSON postings
