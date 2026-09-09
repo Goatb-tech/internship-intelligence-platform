@@ -4,7 +4,7 @@ A portfolio project for collecting internship postings, removing duplicates, sco
 
 ## Current milestone
 
-This first milestone defines the product scope and establishes a safe, runnable project foundation. Future milestones will add ingestion, scoring, persistence, analytics, and a web interface.
+The foundation and core validated domain models are complete. The project can now represent normalized job postings, candidate preferences, skills, and application states without storing private candidate information in the repository.
 
 ## Planned capabilities
 
@@ -26,7 +26,10 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
 python -m internship_intelligence --help
+python -m internship_intelligence model-demo
 ```
+
+Run the model tests with `python -m unittest discover -s tests`.
 
 ## Roadmap
 
